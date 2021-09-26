@@ -1,0 +1,125 @@
+
+img {
+  width: 250px;
+}
+
+body {
+  font-family: Bungee;
+}
+
+.topbar {
+  float: right;
+  padding-top: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    background: #ff00ff;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .block1 {
+    padding: 10px;
+    
+  }
+
+  .block2 {
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    
+  }
+
+ 
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    color: #7944e6;
+    float: right;
+    font-family: Bungee;
+    text-decoration: none; 
+    top: 100px; 
+    
+    
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    color: #7944e6;
+    float: right;
+    font-family: Bungee;
+    text-decoration: none; 
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  nav ul li :hover {
+    color: #10fdff;
+    float: right;
+    font-family: Bungee;
+    text-decoration: none; 
+  }
+ 
+  
+  
+
+
+  h3 {
+      text-align: center;
+  }
+
+
+  h4 {
+      text-align: center;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    border: 5px solid #7944e6;
+    margin: 20px;
+    font-family: Bungee;
+
+  }
+
+  .column h4 :link{
+    color:#7944e6;
+    text-decoration: none; 
+  }
+  
+
+  .column h4 :hover {
+    color: #10fdff;
+    text-decoration: none; 
+  }
+
+  @media only screen and (min-width: 768px) {
+  
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+
+   
+
+    .section {
+      
+      display: flex;
+      flex-direction: column;
+    }
+
+   
+
+  
+  }
